@@ -13,7 +13,7 @@ const Tours = () => {
             <article class="tour-card" key={id}>
               <div class="tour-img-container">
                 <img src={image} class="tour-img" alt={title} />
-                <p class="tour-date">august 26th, 2020</p>
+                <p class="tour-date">{date}</p>
               </div>
               <div class="tour-info">
                 <div class="tour-title">
